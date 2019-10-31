@@ -5,9 +5,9 @@ Some sample codes for using **selenium** in **Python** just for fun.
 ## Selenium Sample Projects
 
 - [x] Google Search
-- [ ] GitHub Search
+- [x] GitHub Search
+- [x] GitHub SignIn
 - [ ] Yahoo Search
-- [ ] GitHub SignIn
 - [ ] Read Site Post
 - [ ] Gmail Register (Need captcha...)
 - [ ] GitHub Register (Need captcha...)
