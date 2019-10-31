@@ -114,6 +114,29 @@ clear_button = driver.find_element_by_xpath("//input[@name='continue'][@type='bu
 clear_button = driver.find_element_by_xpath("//form[@id='loginForm']/input[4]")
 ```
 
+## Selenium Getting Started
+
+### Simple Usage Selenium
+
+If you have installed Selenium Python bindings, you can start using it from Python like this.
+
+```python
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+
+driver = webdriver.Firefox()
+driver.get("http://www.python.org")
+assert "Python" in driver.title
+elem = driver.find_element_by_name("q")
+elem.clear()
+elem.send_keys("pycon")
+elem.send_keys(Keys.RETURN)
+assert "No results found." not in driver.page_source
+driver.close()
+```
+
+https://selenium-python.readthedocs.io/getting-started.html
+
 ---------
 
 # Max Base
