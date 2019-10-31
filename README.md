@@ -7,8 +7,8 @@ Some sample codes for using **selenium** in **Python** just for fun.
 - [x] Google Search
 - [x] GitHub Search
 - [x] GitHub SignIn
+- [x] Yahoo Maktoob News
 - [ ] Yahoo Search
-- [ ] Read Site Post
 - [ ] Gmail Register (Need captcha...)
 - [ ] GitHub Register (Need captcha...)
 
