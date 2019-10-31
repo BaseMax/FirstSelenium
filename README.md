@@ -135,6 +135,8 @@ assert "No results found." not in driver.page_source
 driver.close()
 ```
 
+https://chromedriver.chromium.org/getting-started
+
 https://selenium-python.readthedocs.io/getting-started.html
 
 ---------
