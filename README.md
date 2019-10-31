@@ -2,6 +2,29 @@
 
 Some sample codes for using **selenium** in **Python** just for fun.
 
+## Selenium Browser Helper
+
+```python
+from selenium import webdriver
+```
+
+#### Then, you can access the classes like this:
+
+- webdriver.Firefox
+- webdriver.FirefoxProfile
+- webdriver.Chrome
+- webdriver.ChromeOptions
+- webdriver.Ie
+- webdriver.Opera
+- webdriver.PhantomJS
+- webdriver.Remote
+- webdriver.DesiredCapabilities
+- webdriver.ActionChains
+- webdriver.TouchActions
+- webdriver.Proxy
+
+https://selenium-python.readthedocs.io/api.html
+
 ## Selenium Locating Elements Helper
 
 There are various strategies to locate elements in a page. You can use the most appropriate one for your case.
